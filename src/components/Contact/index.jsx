@@ -39,7 +39,12 @@ const Contact = ()=>{
               <div class="col-md-6">
                 <div class="map_container">
                   <div class="map">
-                    <div id="googleMap" style={{width:'100%',height:'100%'}}></div>
+                  <div id='googleMap' style={{ height: '100vh', width: '100%' }}>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6293460.562509214!2d-94.5570653!3d39.6276814!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1698087319539!5m2!1sen!2sin"
+                     width="600" 
+                     height="450"
+                      style={{border:'0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                   </div>
                 </div>
               </div>
